@@ -22,7 +22,7 @@ int main() {
         std::cout << "Your guess is right!";
     }
     if (numberGuess != ANSWER) {
-        // output
         std::cout << "Your guess is wrong!";
     }
+    std::cout << "\nDone." << std::endl;
 }
